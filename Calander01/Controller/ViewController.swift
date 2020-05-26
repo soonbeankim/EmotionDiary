@@ -22,6 +22,7 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
     
     @IBOutlet weak var calendar: FSCalendar!
     
+    @IBOutlet weak var btnStatics: UIButton!
     var selectDate : [Date] = []
     var intDate = [Int]()
     var emodaDiary = [Emoda_diary]()
@@ -41,6 +42,8 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
         readValues()
         
         setupSQL()
+        // 버튼 라운드
+        btnStatics.layer.cornerRadius = 4
  
         
     }
@@ -180,6 +183,7 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
                //인자값으로 다음 뷰 컨트롤러를 넣고 present 메소드를 호출합니다.
                self.present(uvc, animated: true)
     }
+    
     // 조회된 데이터 중 diary_Emotion만 별도로 변수에 저장 후 통계 페이지에서 사용
        func statisticsOfEmotion() {
            emotionStatisticsTemp.removeAll()
@@ -215,7 +219,16 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
     
     
     @IBAction func btnPushPressed(_ sender: UIBarButtonItem) {
+        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "pushAlertView") else{
+            return
+        }
         
+        //화면 전환 애니메이션을 설정합니다.
+        uvc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
+        uvc.modalPresentationStyle = .fullScreen
+        
+        //인자값으로 다음 뷰 컨트롤러를 넣고 present 메소드를 호출합니다.
+        self.present(uvc, animated: true)
     }
     
 }

@@ -47,8 +47,11 @@ class BarChartViewController: UIViewController {
                 }
 //                else {
 //                }
+                let emotionTitle = ["awkward","happy","angry","sad","gloomy","so so"]
                 
-                result.append(DataEntry(color: colors[i], height: height, textValue: "\(value)", title: "\(imageTitle[i])"))
+                result.append(DataEntry(color: colors[i], height: height, textValue: "\(value)", title: emotionTitle[i]))
+                
+                
             }
             imageViewEmotion.image = UIImage(named: "\(imageTitle[max])")
             return result

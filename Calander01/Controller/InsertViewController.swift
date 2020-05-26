@@ -31,6 +31,9 @@ class InsertViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDa
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var btnDone: UIButton!
+    @IBOutlet weak var btnDelete: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setImgArray()
@@ -45,6 +48,11 @@ class InsertViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDa
         delOutlet.isHidden = true
         }
         viewStart()
+        
+        // 버튼 라운드
+        btnDone.layer.cornerRadius = 4
+        btnDelete.layer.cornerRadius = 4
+        
     }
     
     func viewStart(){

@@ -11,12 +11,11 @@
 		4B048B542420A50D0027C829 /* DeleteSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B048B532420A50D0027C829 /* DeleteSQL.swift */; };
 		4B048B562420A5E70027C829 /* SelectSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B048B552420A5E70027C829 /* SelectSQL.swift */; };
 		4B048B582420A64B0027C829 /* Emoda_diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B048B572420A64A0027C829 /* Emoda_diary.swift */; };
+		4B35163C247CE1460033937F /* PushAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35163B247CE1460033937F /* PushAlertViewController.swift */; };
 		4B746464241FBC9100C1FEB7 /* soso.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B746463241FBC9100C1FEB7 /* soso.png */; };
 		4B7464662420645400C1FEB7 /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7464652420645400C1FEB7 /* InsertViewController.swift */; };
 		4B74646A2420733F00C1FEB7 /* SettingSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7464692420733F00C1FEB7 /* SettingSQL.swift */; };
 		4B8F4C112421DB8C0069392E /* UpdateSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F4C102421DB8C0069392E /* UpdateSQL.swift */; };
-		4B8F4C6124233A140069392E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F4C6024233A140069392E /* SignUpViewController.swift */; };
-		4B8F4C6324234B430069392E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F4C6224234B430069392E /* LoginViewController.swift */; };
 		4BC20F20241F123F00B2C8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC20F1F241F123F00B2C8F1 /* AppDelegate.swift */; };
 		4BC20F22241F123F00B2C8F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC20F21241F123F00B2C8F1 /* SceneDelegate.swift */; };
 		4BC20F24241F123F00B2C8F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC20F23241F123F00B2C8F1 /* ViewController.swift */; };
@@ -44,12 +43,11 @@
 		4B048B532420A50D0027C829 /* DeleteSQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteSQL.swift; sourceTree = "<group>"; };
 		4B048B552420A5E70027C829 /* SelectSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSQL.swift; sourceTree = "<group>"; };
 		4B048B572420A64A0027C829 /* Emoda_diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoda_diary.swift; sourceTree = "<group>"; };
+		4B35163B247CE1460033937F /* PushAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAlertViewController.swift; sourceTree = "<group>"; };
 		4B746463241FBC9100C1FEB7 /* soso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soso.png; sourceTree = "<group>"; };
 		4B7464652420645400C1FEB7 /* InsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
 		4B7464692420733F00C1FEB7 /* SettingSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSQL.swift; sourceTree = "<group>"; };
 		4B8F4C102421DB8C0069392E /* UpdateSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSQL.swift; sourceTree = "<group>"; };
-		4B8F4C6024233A140069392E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		4B8F4C6224234B430069392E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4BC20F1C241F123F00B2C8F1 /* Calander01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calander01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC20F1F241F123F00B2C8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC20F21241F123F00B2C8F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +100,8 @@
 			children = (
 				4B7464652420645400C1FEB7 /* InsertViewController.swift */,
 				4BC20F23241F123F00B2C8F1 /* ViewController.swift */,
-				4B8F4C6024233A140069392E /* SignUpViewController.swift */,
-				4B8F4C6224234B430069392E /* LoginViewController.swift */,
 				4BD89ABA247CAADB0050EE49 /* BarChartViewController.swift */,
+				4B35163B247CE1460033937F /* PushAlertViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -348,7 +345,6 @@
 				4BD89AB7247CA9840050EE49 /* DataEntry.swift in Sources */,
 				4B74646A2420733F00C1FEB7 /* SettingSQL.swift in Sources */,
 				4B048B542420A50D0027C829 /* DeleteSQL.swift in Sources */,
-				4B8F4C6124233A140069392E /* SignUpViewController.swift in Sources */,
 				4BD89AA7247CA9610050EE49 /* BasicBarEntry.swift in Sources */,
 				4B7464662420645400C1FEB7 /* InsertViewController.swift in Sources */,
 				4BD89AA6247CA9610050EE49 /* BasicBarChartPresenter.swift in Sources */,
@@ -356,12 +352,12 @@
 				4B048B562420A5E70027C829 /* SelectSQL.swift in Sources */,
 				4BD89ABB247CAADB0050EE49 /* BarChartViewController.swift in Sources */,
 				4BD89AB6247CA9840050EE49 /* CALayerExtension.swift in Sources */,
+				4B35163C247CE1460033937F /* PushAlertViewController.swift in Sources */,
 				4BD89AAC247CA9730050EE49 /* BeautifulBarEntry.swift in Sources */,
 				4BD89AB9247CA9840050EE49 /* CustomSegments.swift in Sources */,
 				4B048B582420A64B0027C829 /* Emoda_diary.swift in Sources */,
 				4BC20F22241F123F00B2C8F1 /* SceneDelegate.swift in Sources */,
 				4BD89AB5247CA9840050EE49 /* ArrayExtension.swift in Sources */,
-				4B8F4C6324234B430069392E /* LoginViewController.swift in Sources */,
 				4B8F4C112421DB8C0069392E /* UpdateSQL.swift in Sources */,
 				4BD89AAE247CA9730050EE49 /* BeautifulBarChartPresenter.swift in Sources */,
 				4BD89AA5247CA9610050EE49 /* BasicBarChart.swift in Sources */,
@@ -510,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53KNTRQ7TV;
 				INFOPLIST_FILE = Calander01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -528,6 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53KNTRQ7TV;
 				INFOPLIST_FILE = Calander01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
